@@ -12,3 +12,5 @@ print(os.environ.get('path'))
 
 # 查看当前目录的绝对路径
 print(os.path.abspath('.'))
+
+
