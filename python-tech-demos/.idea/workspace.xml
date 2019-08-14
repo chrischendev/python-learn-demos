@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1251fc17-2eb1-4ad3-8117-29100466738a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../WebSpiderDemo/html/js1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSpiderDemo/html/loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSpiderDemo/html/newstop_hot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/news.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/tb_query.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/tb_write.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/es/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/file_io.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xls/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebSpiderDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpiderDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebSpiderDemo/src/WormForBaiduNews.py" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpiderDemo/src/WormForBaiduNews.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebSpiderDemo/src/WormForNewsTop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpiderDemo/src/WormForNewsTop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/tb_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/tb_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file_append.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file_write.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/news.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/news.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/file_os.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/tb_query.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/tb_query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/tb_write.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/tb_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/file_io.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +22,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python_tech_demos$tb_query.coverage" NAME="tb_query Coverage Results" MODIFIED="1565773046559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/db" />
+    <SUITE FILE_PATH="coverage/python_tech_demos$file_append.coverage" NAME="file_append Coverage Results" MODIFIED="1565787783684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/io" />
+    <SUITE FILE_PATH="coverage/python_tech_demos$file_os.coverage" NAME="file_os Coverage Results" MODIFIED="1565788125336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/io" />
+    <SUITE FILE_PATH="coverage/python_tech_demos$tb_add.coverage" NAME="tb_add Coverage Results" MODIFIED="1565785428131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/db" />
+    <SUITE FILE_PATH="coverage/python_tech_demos$file_io.coverage" NAME="file_io Coverage Results" MODIFIED="1565786784805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/io" />
+    <SUITE FILE_PATH="coverage/python_tech_demos$tb_query.coverage" NAME="tb_query Coverage Results" MODIFIED="1565786591577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/db" />
     <SUITE FILE_PATH="coverage/python_tech_demos$tb_write.coverage" NAME="tb_write Coverage Results" MODIFIED="1565772578319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/db" />
+    <SUITE FILE_PATH="coverage/python_tech_demos$tb_update.coverage" NAME="tb_update Coverage Results" MODIFIED="1565786578502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/db" />
+    <SUITE FILE_PATH="coverage/python_tech_demos$tb_delete.coverage" NAME="tb_delete Coverage Results" MODIFIED="1565785721903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/db" />
+    <SUITE FILE_PATH="coverage/python_tech_demos$file_read.coverage" NAME="file_read Coverage Results" MODIFIED="1565786921343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/io" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -71,28 +72,64 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/file_io.py">
+        <entry file="file://$PROJECT_DIR$/src/io/file_write.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="84">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/tb_write.py">
+        <entry file="file://$PROJECT_DIR$/src/io/file_read.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/file_append.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/file_os.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/db/tb_delete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/db/tb_update.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/db/tb_query.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -101,7 +138,7 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ddaca1f3-7d5f-479b-b136-8d36bd9c3ae3/console_1.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+              <caret selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -109,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/news.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="410">
+              <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -140,12 +177,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/file_io.py" />
-        <option value="$PROJECT_DIR$/src/io/file_io.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ddaca1f3-7d5f-479b-b136-8d36bd9c3ae3/console_1.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/sql/news.sql" />
-        <option value="$PROJECT_DIR$/src/db/tb_write.py" />
         <option value="$PROJECT_DIR$/src/db/tb_query.py" />
+        <option value="$PROJECT_DIR$/src/db/tb_write.py" />
+        <option value="$PROJECT_DIR$/sql/news.sql" />
+        <option value="$PROJECT_DIR$/src/db/tb_add.py" />
+        <option value="$PROJECT_DIR$/src/db/tb_delete.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ddaca1f3-7d5f-479b-b136-8d36bd9c3ae3/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/db/tb_update.py" />
+        <option value="$PROJECT_DIR$/src/io/file_io.py" />
+        <option value="$PROJECT_DIR$/src/io/file_read.py" />
+        <option value="$PROJECT_DIR$/src/io/file_append.py" />
+        <option value="$PROJECT_DIR$/src/io/file_os.py" />
       </list>
     </option>
   </component>
@@ -185,7 +228,7 @@
               <item name="python-tech-demos" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-tech-demos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,6 +247,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Workspace\github\chrischendev\python-learn-demos\python-tech-demos\src\io" />
       <recent name="F:\Workspace\github\chrischendev\python-learn-demos\python-tech-demos\src\db" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -222,7 +266,95 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tb_query">
+  <component name="RunManager" selected="Python.file_os">
+    <configuration name="file_append" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-tech-demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/io" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/io/file_append.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="file_io" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-tech-demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/io" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\Workspace\github\chrischendev\python-learn-demos\python-tech-demos\src\io\file_write.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="file_os" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-tech-demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/io" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/io/file_os.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="file_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-tech-demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/io" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/io/file_read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tb_query" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-tech-demos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,32 +377,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tb_write" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-tech-demos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/db" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/db/tb_write.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.file_os" />
+        <item itemvalue="Python.file_append" />
+        <item itemvalue="Python.file_read" />
+        <item itemvalue="Python.file_io" />
         <item itemvalue="Python.tb_query" />
-        <item itemvalue="Python.tb_write" />
       </list>
     </recent_temporary>
   </component>
@@ -284,12 +397,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565757827749</updated>
-      <workItem from="1565757829247" duration="4550000" />
+      <workItem from="1565757829247" duration="8947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4550000" />
+    <option name="totallyTimeSpent" value="8947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -303,11 +416,11 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" weight="0.32924107" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5005365" side_tool="true" weight="0.32924107" />
       <window_info anchor="bottom" id="Database Console" weight="0.32924107" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32924107" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.32924107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,17 +442,55 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ddaca1f3-7d5f-479b-b136-8d36bd9c3ae3/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/file_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/SoftCenter/Anaconda3/Lib/site-packages/pymysql/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/tb_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#43#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/tb_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-522440067/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="896" column="6" selection-start-line="896" selection-start-column="6" selection-end-line="896" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/news.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ddaca1f3-7d5f-479b-b136-8d36bd9c3ae3/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/tb_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -350,31 +501,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/news.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ddaca1f3-7d5f-479b-b136-8d36bd9c3ae3/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/tb_write.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db/tb_query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/file_write.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/file_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/file_append.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/file_os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
