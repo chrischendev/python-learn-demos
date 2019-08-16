@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1251fc17-2eb1-4ad3-8117-29100466738a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyDesktopApp/.idea/MyDesktopApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyDesktopApp/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyDesktopApp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyDesktopApp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyDesktopApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyDesktopApp/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyDesktopApp/src/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSpiderDemo/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSpiderDemo/src/ccnovel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSpiderDemo/src/santaihu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myclass/MainTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myclass/MyModels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timer/APScheduler_mode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timer/sched_mode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timer/sched_mode_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timer/schedule_mode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timer/schedule_mode_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timer/time_mode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uuid/uuid_create.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebSpiderDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebSpiderDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/news.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/news.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -449,16 +428,15 @@
       <updated>1565757827749</updated>
       <workItem from="1565757829247" duration="16708000" />
       <workItem from="1565837247937" duration="5203000" />
-      <workItem from="1565954142608" duration="2432000" />
+      <workItem from="1565954142608" duration="2660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24343000" />
+    <option name="totallyTimeSpent" value="24571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16899142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
