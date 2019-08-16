@@ -22,4 +22,4 @@ create table if not exists tb_news
 );
 
 # 插入数据
-insert into tb_news values (null,'NNNN82138392529','香港暴乱分子全部横死','http://sss.cvafhjk',0,'http://sadfsirfqwe.png','http://asfkgj.jpg,http://dszaikwqdf.jpg','chris','正气网','测试新闻',current_timestamp);
+# insert into tb_news values (null,'NNNN82138392529','香港暴乱分子全部横死','http://sss.cvafhjk',0,'http://sadfsirfqwe.png','http://asfkgj.jpg,http://dszaikwqdf.jpg','chris','正气网','测试新闻',current_timestamp);
