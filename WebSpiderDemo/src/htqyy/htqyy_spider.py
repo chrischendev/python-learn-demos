@@ -40,6 +40,6 @@ for m in range(len(songId)):
     print(songUrl, end='\n')
     print('正在下载第{}首...'.format(m + 1))
     response = requests.get(songUrl, headers=header_dict, proxies=proxy_dict).content
-    f = open('K:\\spider_music\\{}.mp3'.format(songName[m]), 'wb')
+    f = open('F:\\Temp\\spider_music\\{}.mp3'.format(songName[m]), 'wb')
     f.write(response)
     f.close()
