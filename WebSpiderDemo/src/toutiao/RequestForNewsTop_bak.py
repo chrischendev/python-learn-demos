@@ -8,7 +8,8 @@ import requests
 
 
 def spider():
-    get_for_type('__all__')
+    # get_for_type('__all__')
+    get_for_type('news_hot')
 
 
 def get_for_type(news_type):
@@ -74,7 +75,7 @@ def export_excel(news_list):
     }
     pf.rename(columns=col_map, inplace=True)
     pf.fillna('', inplace=True)
-    pf.to_excel('D:\\export_toutiao_01.xlsx', encoding='utf-8', index=False)
+    pf.to_excel('D:\\export_toutiao_03.xlsx', encoding='utf-8', index=False)
 
 
 if __name__ == '__main__':
